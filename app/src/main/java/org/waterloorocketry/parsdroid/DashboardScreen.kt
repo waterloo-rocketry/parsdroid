@@ -257,8 +257,8 @@ fun DashboardCard(label: String, value: String) {
 @Composable
 fun DashboardPreview() {
     val mockState = DashboardState(
-        latitude = "43° 28.3692' N",
-        longitude = "80° 33.9810' W",
+        latitude = "43° 28.3692'N",
+        longitude = "80° 33.9810'W",
         numSatellites = "12",
         timestamp = "23:09:36",
         batteryVoltage = "12.40 V",
